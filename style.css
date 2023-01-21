@@ -51,7 +51,7 @@ header nav {
 }
 
 #logo {
-  width: 3rem;
+  width: 4rem;
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(277deg)
     brightness(113%) contrast(100%);
   margin-left: 1.5rem;
@@ -295,4 +295,20 @@ textarea:focus {
 .github:hover {
   filter: invert(38%) sepia(55%) saturate(414%) hue-rotate(222deg)
     brightness(87%) contrast(96%);
+}
+
+/*Settings Button*/
+.settings {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+  margin: 1.5rem;
+  background-color: #202126;
+}
+#set {
+  width: 2.5rem;
+  filter: invert(31%) sepia(81%) saturate(468%) hue-rotate(191deg)
+    brightness(99%) contrast(86%);
+  margin: 0.5rem;
 }

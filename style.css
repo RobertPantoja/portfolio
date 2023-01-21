@@ -1,0 +1,298 @@
+/* General Settings*/
+* {
+  font-family: Quicksand, Tahoma, sans-serif;
+  color: #fdfffc;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202126;
+}
+
+p {
+  line-height: 1.5;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem;
+}
+h3 span {
+  color: rgb(75, 95, 170);
+}
+/* Header Navigation Bar*/
+header {
+  position: fixed;
+  background-color: #202126;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+}
+
+header nav {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Montserrat, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.topics {
+  margin-right: 1.5rem;
+}
+
+.topics a {
+  padding: 1.25rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#logo {
+  width: 3rem;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(277deg)
+    brightness(113%) contrast(100%);
+  margin-left: 1.5rem;
+}
+
+/* Main */
+main {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #2d2f35;
+  margin: 4rem 2.5rem 0 2.5rem;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.main-img {
+  background-color: #2d2f35;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#photo {
+  width: 20rem;
+  margin: 5rem;
+  border-radius: 5px;
+}
+
+.main-text {
+  margin: 5rem;
+  line-height: 2rem;
+}
+
+.main-text h1 {
+  font-size: 2.5rem;
+}
+.main-text h1 span {
+  color: rgb(75, 95, 170);
+}
+
+.main-text h2 {
+  font-weight: 500;
+}
+.main-text h2 span {
+  color: rgb(75, 95, 170);
+}
+
+.main-text p {
+  line-height: 1.75;
+  color: rgb(187, 187, 187);
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.cv-button,
+#submit-button {
+  background-color: #2d2f35;
+  border-radius: 5px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 4rem;
+  width: 10rem;
+  outline: none;
+  overflow: hidden;
+  padding: 1.25rem;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cv-button:hover,
+.cv-button:focus,
+#submit-button:hover,
+#submit-button:focus {
+  opacity: 0.75;
+}
+
+/* About */
+#about {
+  margin: 0rem 2.5rem;
+}
+
+.info {
+  display: inline-flex;
+  align-items: center;
+}
+
+.info-left {
+  max-width: 50%;
+  padding-right: 1.25rem;
+}
+
+.info-left h4 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: Montserrat Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.info-left p {
+  letter-spacing: 1px;
+  line-height: 1.75;
+  margin: 2rem 0rem;
+}
+
+.info-left table {
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.info-left table td {
+  padding: 0.25rem;
+  line-height: 1.5;
+}
+
+table .attribute,
+table .dots {
+  font-weight: bold;
+}
+
+.info-right {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  justify-content: center;
+}
+
+.box {
+  background-color: #2d2f35;
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 15rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.box p {
+  margin: 0;
+  line-height: 1.75;
+}
+
+.info-icons {
+  max-width: 5rem;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(277deg)
+    brightness(113%) contrast(100%);
+}
+
+/* Contact */
+.contact {
+  display: inline-flex;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.form {
+  border: 1px solid #2d2f35;
+  padding: 3rem;
+}
+
+.form h4,
+.contact-right h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.form input,
+textarea {
+  background-color: #2d2f35;
+  border: 1px solid #202126;
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  font-size: large;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form input:focus,
+textarea:focus {
+  box-shadow: 0 0 15px 4px rgb(75, 95, 170);
+}
+
+#submit-button {
+  margin: 1rem 0;
+}
+
+.contact-right {
+  background-color: #2d2f35;
+  width: 50%;
+  padding: 3rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 8rem;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(277deg)
+    brightness(113%) contrast(100%);
+}
+
+.linkedin:hover {
+  filter: invert(28%) sepia(98%) saturate(2685%) hue-rotate(182deg)
+    brightness(89%) contrast(101%);
+}
+
+.github:hover {
+  filter: invert(38%) sepia(55%) saturate(414%) hue-rotate(222deg)
+    brightness(87%) contrast(96%);
+}
